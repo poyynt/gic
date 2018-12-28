@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: gic
-Version: 2.0.0
+Version: 3.0.0
 Summary: Group Image Compressor (GIC)
-Home-page: https://github.com/poyynt
+Home-page: https://github.com/poyynt/gic/
 Author: Parsa Torbati
 Author-email: parsa@programmer.net
 License: UNKNOWN
@@ -30,11 +30,15 @@ Description: # GIC
         ```
         #### To be quiet:  
         A code that **you** set the compression level.
+        Set quality to 1|2|3|4 or a percentage. Lower percentage is lower size and lower quality. 1 Means best, 4 means worst.
         ```python
-        import gic.main
-        #change the working directory to whatever you want
-        #set gic.main.image_quality to 1|2|3|4
-        gic.main.compress()
+        import gic.compress
+        gic.compress.compress(quality)
+        ```
+        You can also pass another arguement to compress images in that directory.
+        ```python
+        import gic.compress
+        gic.compress.compress(quality, dir)
         ```
         
         

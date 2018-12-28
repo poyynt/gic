@@ -1,6 +1,7 @@
 README.md
 setup.py
 gic/__init__.py
+gic/compress.py
 gic/main.py
 gic.egg-info/PKG-INFO
 gic.egg-info/SOURCES.txt

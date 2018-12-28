@@ -22,10 +22,14 @@ gic.main.run()
 ```
 #### To be quiet:  
 A code that **you** set the compression level.
+Set quality to 1|2|3|4 or a percentage. Lower percentage is lower size and lower quality. 1 Means best, 4 means worst.
 ```python
-import gic.main
-#change the working directory to whatever you want
-#set gic.main.image_quality to 1|2|3|4
-gic.main.compress()
+import gic.compress
+gic.compress.compress(quality)
+```
+You can also pass another arguement to compress images in that directory.
+```python
+import gic.compress
+gic.compress.compress(quality, dir)
 ```
 

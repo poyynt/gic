@@ -11,7 +11,7 @@ setuptools.setup(
         description="Group Image Compressor (GIC)",
         long_description=long_desc,
         long_description_content_type="text/markdown",
-        url="https://github.com/poyynt",
+        url="https://github.com/poyynt/gic/",
         author="Parsa Torbati",
         author_email="parsa@programmer.net",
         packages=setuptools.find_packages(),
