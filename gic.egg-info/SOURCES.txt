@@ -1,0 +1,10 @@
+README.md
+setup.py
+gic/__init__.py
+gic/main.py
+gic.egg-info/PKG-INFO
+gic.egg-info/SOURCES.txt
+gic.egg-info/dependency_links.txt
+gic.egg-info/entry_points.txt
+gic.egg-info/requires.txt
+gic.egg-info/top_level.txt
