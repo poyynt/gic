@@ -7,9 +7,12 @@
 [Download ZIP]({{ site.github.zip_url }})   
 [Download TAR]({{ site.github.tar_url }})   
 [Releases]({{ site.github.releases_url }})   
-
 <!--Latest Release: {{ site.github.latest_release}}-->
 [RSS](feed.xml)
+
+### To install:
+Run `pip install gic`.
+
 
 ### To execute:  
 #### In Linux|Unix|macOS:  
