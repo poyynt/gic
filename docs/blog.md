@@ -5,5 +5,6 @@ title: Blog
 # Blog Latest Posts  
 
 {% for post in site.posts %}
-* [{{ post.title}}]("./"{{ post.url }})
+{% capture url %}{{ page.url }}/../{{ post.url }}{% endcapture %}
+* [{{ post.title}}]({{ url }})
 {% endfor %}
