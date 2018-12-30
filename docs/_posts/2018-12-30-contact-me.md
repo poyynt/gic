@@ -1,4 +1,5 @@
 ---
+title: Contact
 categories: [blog, contact]
 tags: [contact-me, social]
 author: Parsa Torbati
