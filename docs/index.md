@@ -4,6 +4,10 @@
 
 [Github](https://github.com/poyynt/gic)  
 [PyPI](https://pypi.org/project/gic)
+[Download ZIP](site.github.zip_url)
+[Download TAR](site.github.tar_url)
+[Releases](site.github.releases_url)
+
 
 ### To execute:  
 #### In Linux|Unix|macOS:  
