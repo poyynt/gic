@@ -2,11 +2,11 @@
 
 ## An image compressor that compresses all images in the working directory.  
 
-[Github](https://github.com/poyynt/gic)  
-[PyPI](https://pypi.org/project/gic)
-[Download ZIP](site.github.zip_url)
-[Download TAR](site.github.tar_url)
-[Releases](site.github.releases_url)
+[Github](https://github.com/poyynt/gic)   
+[PyPI](https://pypi.org/project/gic)   
+[Download ZIP]({{ site.github.zip_url }})   
+[Download TAR]({{ site.github.tar_url }})   
+[Releases]({{ site.github.releases_url }})   
 
 
 ### To execute:  
