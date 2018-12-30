@@ -8,6 +8,7 @@
 [Download TAR]({{ site.github.tar_url }})   
 [Releases]({{ site.github.releases_url }})   
 
+Latest Release: {{ site.github.latest_release}}
 
 ### To execute:  
 #### In Linux|Unix|macOS:  
