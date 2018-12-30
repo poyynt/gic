@@ -1,12 +1,11 @@
 ---
-title: Contact
+title: Contact Me
 categories: [blog, contact]
 tags: [contact-me, social]
 author: Parsa Torbati
 layout: post
 ---
 
-# Contact Me
 Hello, I am happy to receive your suggestions. Here are some ways to contact me:    
 [Twitter @ptorbatii](twitter.com/ptorbatii)   
 [E-Mail](mailto:parsa@programmer.net)   
