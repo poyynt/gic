@@ -25,29 +25,29 @@ Copy the file `gic.exe`(GUI) or `gic-cli.exe`(CLI) from `pythoninstallation\Scri
 #### To use in your python code:  
 A code that the **user** sets the compression level.
 ###### GUI
-```python
+{% highlight python linenos %}
 import gic.main
 #change the working directory to whatever you want
 gic.main.run()
-```
+{% endhighlight %}
 ###### CLI
-```python
+{% highlight python linenos %}
 import gic.cli
 #change the working directory to whatever you want
 gic.cli.run()
-```
+{% endhighlight %}
 #### To be quiet:  
 A code that **you** set the compression level.
 Set quality to 1|2|3|4 or a percentage. Lower percentage is lower size and lower quality. 1 Means best, 4 means worst.
-```python
+{% highlight python linenos %}
 import gic.compress
 gic.compress.compress(quality)
-```
+{% endhighlight %}
 You can also pass another arguement to compress images in that directory.
-```python
+{% highlight python linenos %}
 import gic.compress
 gic.compress.compress(quality, dir)
-```
+{% endhighlight %}
 
 
 [Contact Me](mailto:parsa@programmer.net)
