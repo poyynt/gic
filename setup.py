@@ -22,11 +22,12 @@ setuptools.setup(
         entry_points={
             "console_scripts": [
                 "gic=gic.main:run",
+                "gic-cli=gic.cli:run",
                 ],
             },
         classifiers=[
             "Programming Language :: Python :: 3",
-            "License :: OSI Approved :: GNU General Public License (GPL)",
+            "License :: OSI Approved :: Apple Public Source License",
             "Operating System :: OS Independent",
             "Development Status :: 5 - Production/Stable",
             "Natural Language :: English",

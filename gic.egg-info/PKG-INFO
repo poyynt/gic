@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: gic
-Version: 3.0.0
+Version: 4.0.0
 Summary: Group Image Compressor (GIC)
 Home-page: https://github.com/poyynt/gic/
 Author: Parsa Torbati
@@ -15,18 +15,28 @@ Description: # GIC
         
         ### To execute:  
         #### In Linux|Unix|macOS:  
+        ##### GUI:  
         Run `gic` in a shell.  
+        ##### CLI:  
+        Run `gic-cli` in a shell.  
         #### In Windows:
         ##### Method 1:
-        In a `cmd` window, change working directory to your desired folder and run `gic`.  
+        In a `cmd` window, change working directory to your desired folder and run `gic`(GUI) or `gic-cli`(CLI).  
         ##### Method 2:
-        Copy the file `gic.exe` from `pythoninstallation\Scripts\` to your desired folder and double-click it.  
+        Copy the file `gic.exe`(GUI) or `gic-cli.exe`(CLI) from `pythoninstallation\Scripts\` to your desired folder and double-click it.  
         #### To use in your python code:  
         A code that the **user** sets the compression level.
+        ###### GUI
         ```python
         import gic.main
         #change the working directory to whatever you want
         gic.main.run()
+        ```
+        ###### CLI
+        ```python
+        import gic.cli
+        #change the working directory to whatever you want
+        gic.cli.run()
         ```
         #### To be quiet:  
         A code that **you** set the compression level.
@@ -44,7 +54,7 @@ Description: # GIC
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
-Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: License :: OSI Approved :: Apple Public Source License
 Classifier: Operating System :: OS Independent
 Classifier: Development Status :: 5 - Production/Stable
 Classifier: Natural Language :: English

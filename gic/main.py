@@ -2,12 +2,16 @@ import cv2
 import os
 import tkinter as tk
 import tkinter.messagebox as tkmessagebox
+import tkinter.filedialog as tkfiledialog
 import time
 
 
 # For Debigging only, do not turn this on in operation
 DEBUG = False
 debug = lambda s : print(s) if DEBUG else None
+
+#Select directory for images or use current.
+#End
 
 
 window = tk.Tk()
@@ -17,6 +21,13 @@ text0 = tk.Label(window, text="All images in this folder will be compressed with
 text0.pack()
 text = tk.Label(window,text="Select Compression Level From 1 to 4 (4 is the lowest quality, lowest size)")
 text.pack()
+
+def dir_browser():
+    b = tkfiledialog.askdirectory(title="Select a folder to compress all containing images")
+    os.chdir(b)
+
+browser_button = tk.Button(window, text="Browse", command=dir_browser)
+browser_button.pack()
 
 compression = tk.Scale(window, from_=1, to=4, orient=tk.HORIZONTAL)
 compression.set(3)
@@ -69,7 +80,6 @@ def compress():
         debug("Old: " + str(os.path.getsize(i)))
         debug("New: " + str(os.path.getsize(new_name)))
 
-
 read_compression = tk.Button(window,text="Compress", command=read_compression_callback)
 read_compression.pack()
 
@@ -78,4 +88,5 @@ def run():
     image_quality = None
 
     window.mainloop()
+    window.destroy()
 

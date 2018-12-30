@@ -1,3 +1,4 @@
 [console_scripts]
 gic = gic.main:run
+gic-cli = gic.cli:run
 
